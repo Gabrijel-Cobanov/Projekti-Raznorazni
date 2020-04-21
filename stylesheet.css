@@ -1,0 +1,135 @@
+.container
+{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(194, 214, 233);
+    position: relative;
+    top: 5em;
+    margin-bottom: 2em;
+    padding: 1em 0.5em;
+    border-color: rgb(125, 154, 180);
+    border-style: solid;
+    border-top: 0em;
+    border-right: 0em;
+    border-bottom: 0em;
+    border-width: 0.5em;
+    z-index: 2;
+}
+
+#footnote
+{
+    width: 100vw;
+    height: 3em;
+    background-color: rgb(30, 42, 66);
+    bottom:0em;
+    height: 4em;
+    z-index: 3;
+    margin-top: 10%;
+    border-style: solid;
+    border-bottom: 0em;
+    border-right: 0em;
+    border-left: 0em;
+    border-width: 0.3em;
+    border-color: rgb(87, 157, 160);
+}
+
+#copyright
+{
+    color: rgb(87, 157, 160);
+    text-align: center;
+}
+
+.content
+{   
+    font-family:Arial, Helvetica, sans-serif;  
+    padding-left: 0.8em;
+    z-index: 2;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+}
+
+body
+{
+    background-color: rgb(42, 92, 77);
+    margin: 0px;
+}
+
+p
+{
+    font-family:Arial, Helvetica, sans-serif;  
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+}
+
+h1
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;
+    color: rgb(228, 106, 72);
+}
+
+h2
+{
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+h3
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: 300;
+    text-align: right;
+    color: rgb(255, 60, 6);
+    position: inherit;
+    right: 3em;
+}
+
+#navbar
+{
+    width: 100vw;
+    height: 3em;
+    background-color: rgb(30, 42, 66);
+    position: fixed;
+    z-index: 3;
+    border-style: solid;
+    border-top: 0em;
+    border-right: 0em;
+    border-left: 0em;
+    border-width: 0.3em;
+    border-color: rgb(87, 157, 160);
+    
+}
+
+.navitem
+{
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;  
+    width: 4em;
+    padding:1.2em 1.2em;
+    text-align: right;
+    color: rgb(125, 154, 180);
+}
+
+.navitem:hover
+{
+    background-color: rgb(87, 157, 160);
+    color: rgb(194, 214, 233);
+}
+
+hr
+{
+    border-style: dotted;
+    width: 45%;
+    position: relative;
+    border-bottom: 0em;
+    border-left: 0em;
+    border-right: 0em;
+    border-spacing: 0.3em;
+    border-width: 0.2em;
+    color: rgb(228, 106, 72);
+}
